@@ -1,13 +1,14 @@
-<?php 
-    include "header.php"
-?>
+<?php include "header.php"?>
 
 <main>
-    <h1>fet</h1>
+    <h1 class="text1">Популярные курсы (Хиты продаж)</h1>
+    <div class="card">
+        <div class="container">Почему популярен: Python удерживает 1-е место в рейтингах популярности благодаря своей универсальности и роли в развитии нейросетей.
+Программа: Изучение синтаксиса, работа с базами данных (SQL), создание API на Django или FastAPI, основы Docker.
+Для кого: Новички, желающие быстро войти в IT с понятным языком программирования.</div>
+    </div>
 </main>
 
-<?php 
-    include "footer.php"
-?>
+<?php include "footer.php"?>
 </body>
 </html>
