@@ -107,6 +107,37 @@ body {
     margin: 0;
     padding: 0;
 }
+a.backBtn{
+    margin-left: 23px;
+    background-color: #89DA6B;
+    width: 126px;
+    height: 38px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section1Text{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.section1 > h1{
+    width: 100%;
+    text-align: center;
+}
+.section11{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 .main_header {
@@ -115,6 +146,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
+    margin-bottom: 26px;
     border-bottom: 2px solid #000;
 }
 
