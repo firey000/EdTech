@@ -1,16 +1,18 @@
-body{
+body {
     background-color: #FDFAA3;
     margin: 0;
     padding: 0;
 }
-.loginMain{
+
+.loginMain {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     height: 800px;
 }
-.loginForm{ 
+
+.loginForm {
     width: 396px;
     background-color: white;
     height: 454px;
@@ -20,14 +22,16 @@ body{
     border: 1px solid rgb(203, 203, 203);
     border-radius: 15px;
 }
-.loginForm label{
+
+.loginForm label {
     display: flex;
     font-weight: bold;
     justify-content: left;
     margin-bottom: 5px;
     margin-left: 10px;
 }
-.loginForm input{
+
+.loginForm input {
     background-color: #EEEEEE;
     border: 1px solid #173CF9;
     border-radius: 15px;
@@ -35,7 +39,8 @@ body{
     width: 285px;
     margin-bottom: 30px;
 }
-.loginForm button{
+
+.loginForm button {
     width: 131px;
     height: 36px;
     background-color: #89DA6B;
@@ -43,143 +48,149 @@ body{
     border: 1px solid;
     margin-bottom: 10px;
 }
-.loginForm a{
+
+.loginForm a {
     color: #0022FF;
 }
-.loginForm span{
+
+.loginForm span {
     margin-bottom: 18px;
 }
-span + label{
+
+span+label {
     margin-bottom: 60px;
     font-weight: bold;
 }
-hr{
+
+hr {
     width: 85%;
     color: black;
 }
-.loginForm img{
+
+.loginForm img {
     width: 30px;
 }
+
 body {
     margin: 0;
-     padding: 0;
-     }
+    padding: 0;
+}
 
 
-        .main_header {
-            background-color: #FFF9C4; 
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 30px;
-            border-bottom: 2px solid #000;
-        }
+.main_header {
+    background-color: #FFF9C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 2px solid #000;
+}
 
-        .header_left {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
-        .logo {
-            font-size: 28px;
-            font-weight: 900;
-            color: #000;
-            margin-right: 15px;
-            letter-spacing: -1px;
-        }
+.logo {
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+    margin-right: 15px;
+    letter-spacing: -1px;
+}
 
-        .header {
-            display: flex;
-            gap: 8px;
-        }
+.header {
+    display: flex;
+    gap: 8px;
+}
 
-        .link {
-            text-decoration: none;
-            color: #000;
-            border: 1px solid #000;
-            padding: 6px 12px;
-            font-size: 13px;
-            transition: 0.2s;
-        }
+.link {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 6px 12px;
+    font-size: 13px;
+    transition: 0.2s;
+}
 
-        .link:hover {
-            background-color: rgba(0,0,0,0.05);
-        }
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
 
-        .header_right {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            flex-grow: 1;
-            justify-content: flex-end;
-            margin-left: 40px;
-        }
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
 
-        .search_box {
-            position: relative;
-            width: 100%;
-            max-width: 400px;
-        }
+.search_box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
 
-        .search_input {
-            width: 100%;
-            border: 1px solid #000;
-            border-radius: 25px;
-            padding: 10px 40px 10px 20px;
-            font-size: 16px;
-            outline: none;
-            background: transparent;
-        }
+.search_input {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 10px 40px 10px 20px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+}
 
-        .search_btn {
-            position: absolute;
-            right: 15px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-        }
+.search_btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
 
-        .menu {
-            display: flex;
-            gap: 12px;
-        }
+.menu {
+    display: flex;
+    gap: 12px;
+}
 
-        .icon_btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 45px;
-            height: 45px;
-            border: 1.5px solid #000;
-            border-radius: 8px;
-            background: #fff;
-            text-decoration: none;
-            color: #000;
-            font-size: 20px;
-        }
+.icon_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
 
-    
-        .icon_btnk {
-            background: #000;
-            color: #fff;
-        }
+
+.icon_btnk {
+    background: #000;
+    color: #fff;
+}
 
 
 
 body {
     font-family: Arial, sans-serif;
-    background-color: white; 
+    background-color: white;
 }
 
 .footer {
     background-color: #000000;
-    
+
     padding: 65px 20px;
-    color: #f5e6a3; 
+    color: #f5e6a3;
 }
 
 .footer-container {
@@ -200,7 +211,7 @@ body {
 .footer-brand {
     font-size: 30px;
     font-weight: bold;
-    
+
 }
 
 .footer-middle {
@@ -214,7 +225,7 @@ body {
     border: 1px solid #f5e6a3;
     padding: 8px 15px;
     font-size: 14px;
-    
+
 }
 
 .footer-btn:hover {
