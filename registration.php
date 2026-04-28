@@ -6,21 +6,33 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body class="loginBody">
-    <main class="loginMain">
+<body class="regBody">
+    <main class="regMain">
         <h1>EdTech</h1>
-        <div class="loginForm">
-            <h1>Вход</h1>
+        <div class="regForm">
+            <h1>Регистрация</h1>
             <div>
                 <label>Логин</label>
                 <input type="text">
             </div>
             <div>
                 <label>Пароль</label>
-                <input type="text">
+                <input type="password">
             </div>
-            <a class="loginBtn" href="index.php">Войти</a>
-            <span>Нет аккаунта?<a href="registration.php">Зарегистрироваться</a></span>
+            <div>
+                <label>Подтверждение пароля</label>
+                <input type="password">
+            </div>
+            <div>
+                <label>Почта</label>
+                <input type="email">
+            </div>
+            <div>
+                <label>Телефон</label>
+                <input type="number">
+            </div>
+            <a class="regBtn" href="index.php">Зарегистрироваться</a>
+            <span>Есть аккаунт?<a href="login.php">Войти</a></span>
             <hr>
             <label>Или войти с помощью</label>
             <div>
