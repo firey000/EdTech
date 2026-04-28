@@ -1,4 +1,13 @@
-<?php include 'header.php'; ?>
-<link rel="stylesheet" href="style.css">
+<?php 
+    include "header.php"
+?>
 
-<?php include 'footer.php'; ?>
+<main>
+    <h1>fet</h1>
+</main>
+
+<?php 
+    include "footer.php"
+?>
+</body>
+</html>

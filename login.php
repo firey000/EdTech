@@ -18,7 +18,7 @@
                 <label>Пароль</label>
                 <input type="text">
             </div>
-            <button>Войти</button>
+            <button href="index.php">Войти</button>
             <span>Нет аккаунта?<a href="registration.php">Зарегистрироваться</a></span>
             <hr>
             <label>Или войти с помощью</label>
