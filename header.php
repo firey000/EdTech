@@ -6,27 +6,27 @@
 </head>
 <body>
 
-<header class="main-header">
+<header class="main_header">
     
-    <div class="header-left">
+    <div class="header_left">
         <div class="logo">EdTech</div>
-        <nav class="header-nav">
-            <a href="#" class="nav-link">Каталог курсов</a>
-            <a href="#" class="nav-link">Учиться бесплатно</a>
-            <a href="#" class="nav-link">Медиа Нетологии</a>
+        <nav class="header">
+            <a href="" class="link">Каталог курсов</a>
+            <a href="" class="link">Учиться бесплатно</a>
+            <a href="" class="link">Медиа Нетологии</a>
         </nav>
     </div>
     
 \
-    <div class="header-right">
-        <div class="search-box">
-            <input type="text" class="search-input" placeholder="Поиск">
-            <button class="search-btn">🔍</button>
+    <div class="header_right">
+        <div class="search_box">
+            <input type="text" class="search_input" placeholder="Поиск">
+            <button class="search_btn">🔍</button>
         </div>
         
-        <div class="user-menu">
-            <a href="#" class="icon-btn">👤</a>
-            <a href="#" class="icon-btn dark">🕊️</a>
+        <div class="menu">
+            <a href="" class="icon_btn">👤</a>
+            <a href="" class="icon_btnk">🕊️</a>
         </div>
     </div>
 </header>

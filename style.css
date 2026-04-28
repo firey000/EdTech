@@ -1,20 +1,22 @@
 body{
     background-color: #FDFAA3;
 }
-body { margin: 0; padding: 0; }
+body {
+    margin: 0;
+     padding: 0;
+     }
 
 
-        .main-header {
+        .main_header {
             background-color: #FFF9C4; 
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 10px 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border-bottom: 2px solid #000;
         }
 
-        .header-left {
+        .header_left {
             display: flex;
             align-items: center;
             gap: 15px;
@@ -28,12 +30,12 @@ body { margin: 0; padding: 0; }
             letter-spacing: -1px;
         }
 
-        .header-nav {
+        .header {
             display: flex;
             gap: 8px;
         }
 
-        .nav-link {
+        .link {
             text-decoration: none;
             color: #000;
             border: 1px solid #000;
@@ -42,11 +44,11 @@ body { margin: 0; padding: 0; }
             transition: 0.2s;
         }
 
-        .nav-link:hover {
+        .link:hover {
             background-color: rgba(0,0,0,0.05);
         }
 
-        .header-right {
+        .header_right {
             display: flex;
             align-items: center;
             gap: 20px;
@@ -55,13 +57,13 @@ body { margin: 0; padding: 0; }
             margin-left: 40px;
         }
 
-        .search-box {
+        .search_box {
             position: relative;
             width: 100%;
             max-width: 400px;
         }
 
-        .search-input {
+        .search_input {
             width: 100%;
             border: 1px solid #000;
             border-radius: 25px;
@@ -71,7 +73,7 @@ body { margin: 0; padding: 0; }
             background: transparent;
         }
 
-        .search-btn {
+        .search_btn {
             position: absolute;
             right: 15px;
             top: 50%;
@@ -82,12 +84,12 @@ body { margin: 0; padding: 0; }
             font-size: 18px;
         }
 
-        .user-menu {
+        .menu {
             display: flex;
             gap: 12px;
         }
 
-        .icon-btn {
+        .icon_btn {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -102,7 +104,7 @@ body { margin: 0; padding: 0; }
         }
 
     
-        .icon-btn.dark {
+        .icon_btnk {
             background: #000;
             color: #fff;
         }
