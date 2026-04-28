@@ -1,15 +1,19 @@
-.loginBody {
+.loginBody, .regBody {
     background-color: #FDFAA3;
     margin: 0;
     padding: 0;
 }
 
-.loginMain {
+.loginMain, .regMain {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    height: 800px;
+    flex-direction: column;
+    height: 900px;
+}
+.regMain > h1{
+    margin-bottom: 20px;
 }
 
 .loginForm {
@@ -22,8 +26,18 @@
     border: 1px solid rgb(203, 203, 203);
     border-radius: 15px;
 }
+.regForm {
+    width: 396px;
+    background-color: white;
+    height: 770px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 15px;
+}
 
-.loginForm label {
+.loginForm label, .regForm label {
     display: flex;
     font-weight: bold;
     justify-content: left;
@@ -31,7 +45,7 @@
     margin-left: 10px;
 }
 
-.loginForm input {
+.loginForm input, .regForm input {
     background-color: #EEEEEE;
     border: 1px solid #173CF9;
     border-radius: 15px;
@@ -39,21 +53,39 @@
     width: 285px;
     margin-bottom: 30px;
 }
-
-.loginForm button {
+.loginForm a, .regForm a {
+    color: #0022FF;
+}
+a.loginBtn{
+    text-decoration: none;
     width: 131px;
     height: 36px;
     background-color: #89DA6B;
     border-radius: 5px;
     border: 1px solid;
     margin-bottom: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.regBtn{
+    text-decoration: none;
+    width: 179px;
+    height: 36px;
+    background-color: #89DA6B;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.loginForm a {
-    color: #0022FF;
-}
 
-.loginForm span {
+
+.loginForm span, .regForm span {
     margin-bottom: 18px;
 }
 
@@ -67,7 +99,7 @@ hr {
     color: black;
 }
 
-.loginForm img {
+.loginForm img, .regForm img {
     width: 30px;
 }
 
