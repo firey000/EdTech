@@ -361,7 +361,7 @@ body {
     border-color: black;
     border-radius: 20px;
     margin-left: 200px;
-    margin-bottom: 400px;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -382,6 +382,55 @@ body {
 .container span{
     width: 600px;
 }
+.card1 img{
+    width: 400px;
+    display: flex;
+    margin-right: 30px;
+    
+    
+}
+.container1 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 1000px;
+    padding: 0px;
+
+
+}
+.card1 {
+    width: 1200px;
+    height: 320px;
+    background-color: #FFF9C4;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-bottom: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:center;    
+    
+}
+.card1 h1{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 0px 125px;
+    box-sizing: border-box q 100px   ;
+
+}
+.container1 span{
+    width: 600px;
+}
 .card img{
     width: 400px;
     display: flex;
@@ -389,4 +438,3 @@ body {
     
     
 }
-
