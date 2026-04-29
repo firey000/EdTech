@@ -506,7 +506,7 @@ body {
     border-color: black;
     border-radius: 20px;
     margin-left: 200px;
-    margin-bottom: 400px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -533,3 +533,16 @@ body {
     
 }
 
+.category{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 200px;
+    background-color: #7CE0E4;
+}
+.cartochka{
+    width: 200px;
+    height: 200px;
+    background-color: #f5e6a3;
+}
