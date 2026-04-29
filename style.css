@@ -161,7 +161,8 @@ a.backBtn {
 
 .courseSection1>h1,
 .courseSection2>h1,
-.courseSection3 {
+.courseSection3>h1,
+.courseSection4>h1 {
     width: 100%;
     text-align: center;
     margin-bottom: 70px;
@@ -266,7 +267,7 @@ a.backBtn {
     padding-right: 500px;
 }
 
-.infPrepod span{
+.infPrepod span {
     display: flex;
     margin-bottom: 10px;
 }
@@ -280,6 +281,59 @@ a.backBtn {
     width: fit-content;
 }
 
+.courseSection4 {
+    width: 100%;
+    height: auto;
+    background-color: #7CE0E4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.courseBtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    margin-bottom: 60px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: normal;
+    color: #333;
+}
+
+tr{
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+td:nth-child(2) {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.header-row {
+    background-color: white !important;
+}
 
 
 
@@ -571,6 +625,7 @@ body {
 
 
 }
+
 .container2 {
     width: 100%;
     height: auto;
@@ -584,6 +639,7 @@ body {
 
 
 }
+
 .card2 {
     width: 1200px;
     height: 320px;
@@ -598,30 +654,33 @@ body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content:center;    
-    
+    justify-content: center;
+
 }
-.card2 h1{
+
+.card2 h1 {
     width: 100%;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     padding: 0px 125px;
-    box-sizing: border-box q 100px   ;
+    box-sizing: border-box q 100px;
 
 }
-.container2 span{
+
+.container2 span {
     width: 600px;
 }
-.card2 img{
+
+.card2 img {
     width: 400px;
     display: flex;
     margin-right: 30px;
-    
-    
+
+
 }
 
-.category{
+.category {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
