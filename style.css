@@ -117,7 +117,7 @@ a.backBtn{
     justify-content: center;
     align-items: center;
 }
-.section1{
+.courseSection1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -138,12 +138,12 @@ a.backBtn{
 .section1Text > label{
     font-size: 25px;
 }
-.section1 > h1{
+.courseSection1 > h1, .courseSection2 > h1{
     width: 100%;
     text-align: center;
     margin-bottom: 70px;
 }
-.section1 > div{
+.courseSection1 > div{
     width: 100%;
     padding-left: 100px;
     padding-right: 90px;
@@ -151,17 +151,49 @@ a.backBtn{
     justify-content: space-between;
     gap: 90px;
 }
-.section1 img{
+.courseSection1 img{
     width: 774px;
     height: 435;
 }
-.section1 p{
+.courseSection1 p{
     width: 100%;
     display: flex;
     justify-content: end;
     padding-right: 350px;
     font-size: 20px;
 }
+
+.courseSection2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 200px;
+    background-color: #7CE0E4;
+}
+.cardList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 144px;
+}
+.cardList > div{
+    width: 424px;
+    height: 295px;
+    background-color: #FDFAA3;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
