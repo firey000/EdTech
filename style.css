@@ -257,7 +257,7 @@ a.backBtn{
 }
 
 .search_input {
-    width: 100%;
+    width: 350px;
     border: 1px solid #000;
     border-radius: 25px;
     padding: 10px 40px 10px 20px;
@@ -298,8 +298,17 @@ a.backBtn{
 
 
 .icon_btnk {
-    background: #000;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid #000;
+    border-radius: 8px;
+    background: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 
@@ -446,7 +455,7 @@ body {
     border-color: black;
     border-radius: 20px;
     margin-left: 200px;
-    margin-bottom: 400px;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -522,11 +531,49 @@ body {
     
 }
 
+
 .category{
     width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 200px;
+    gap: 20px;
     background-color: #7CE0E4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.categoryList{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom:20px;
+}
+.categoryList > div{
+    width: 400px;
+    height: 420px;
+    background-color: #FDFAA3;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around 20px;
+    align-items: center;
+    
+    
+}
+.podrob{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #000;
+    background-color:#89DA6B;
+    font-size: medium;
+}
+.categoryList img{
+    width: 300px;
+
 }
