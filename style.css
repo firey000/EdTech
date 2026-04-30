@@ -974,5 +974,41 @@ body {
         padding-right: 0;
         font-size: 20px;
     }
+    .profcont {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 15px;
+        margin-bottom: 40px;
+        font-size:medium;
+        margin-left: 0;
+       
+        gap: 25px;
+        text-align: center;
 
+
+    }
+    .profcont>span {
+    margin-right: 30px;
+    }
+    .profcont1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 15px;
+        margin-bottom: 40px;
+        font-size:medium;
+        margin-left: 0;
+       
+        gap: 25px;
+        text-align: center; 
+    }
+    .profcont1>img{
+        width: 300px;
+        display:flex;
+        margin-left: 50px;
+    }
+    .profcont1>span {
+    margin-left: 70px;
+    }
 }
